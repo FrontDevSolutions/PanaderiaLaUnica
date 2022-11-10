@@ -1,0 +1,12 @@
+.swal2-styled.swal2-confirm {
+    border: 0;
+    border-radius: .25em;
+    background: initial;
+    background-color: #fc2306;
+    color: #fff;
+    font-size: 1em;
+}
+
+body{
+    background-image: url('logo2.jpg');
+}

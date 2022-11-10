@@ -1,0 +1,43 @@
+.u-section-2 {
+    background-image: none;
+  }
+  
+  .u-section-2 .u-sheet-1 {
+    min-height: 100vh;
+  }
+  
+  .u-section-2 .u-text-1 {
+    font-size: 1.5rem;
+    line-height: 1.8;
+    font-weight: 300;
+    margin: 134px 42px 0;
+  }
+  
+  @media (max-width: 991px) {
+    .u-section-2 .u-text-1 {
+      font-size: 2.625rem;
+    }
+  }
+  
+  @media (max-width: 767px) {
+    .u-section-2 .u-text-1 {
+      font-size: 2.1875rem;
+    }
+  }
+  
+  @media (max-width: 575px) {
+    .u-section-2 .u-sheet-1 {
+      min-height: 433px;
+    }
+  
+    .u-section-2 .u-text-1 {
+      font-size: 1.5rem;
+    }
+  }
+
+.logo1{
+  height: 250px;
+  width: 320px;
+  float: right;
+  margin-right: 100px;
+}
