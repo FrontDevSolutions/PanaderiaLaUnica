@@ -1,0 +1,41 @@
+.navegacion {
+    background-color: yellow;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.imagen{
+    background-image: url("images/dulce.jpg");
+    height: 768px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.imagen__titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 6rem;
+    color: white;
+}
+
+.contenedor{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-left: 3rem;
+    margin-right: 2rem;
+    margin-top: 4rem;
+}
+
+@media (min-width: 658px) {
+    .contenedor{
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+        margin-left: 3rem;
+        margin-right: 2rem;
+        margin-top: 4rem;
+    }
+}
