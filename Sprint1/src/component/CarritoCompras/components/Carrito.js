@@ -5,7 +5,7 @@ carritoInitialState,
 CarritoReducers,
 } from "../reducers/CarritoReducers";
 import CartItem from "./CartItem";
-import Productos from "./Productos"; 
+import Productos from "./Productos";
 
 const Carrito = () => {
 const [state, dispatch] = useReducer(CarritoReducers, carritoInitialState);

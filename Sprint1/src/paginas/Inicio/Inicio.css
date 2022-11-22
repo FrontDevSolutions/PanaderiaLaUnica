@@ -1,7 +1,7 @@
 .imagen{
   background-image: linear-gradient(rgba(227, 230, 238, 0.055),rgba(227, 230, 238, 0.283)),
   url(/src/Imagenes/fondo.jpg);
-  height: 568px;
+  height: 868px;
   background-size: cover;
   background-repeat: no-repeat;
   position: relative;

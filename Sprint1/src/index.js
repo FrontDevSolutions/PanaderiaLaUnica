@@ -4,18 +4,33 @@ import { BrowserRouter } from 'react-router-dom';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import Inicio from './paginas/Inicio/Inicio';
+import Inicio from '../src/paginas/Inicio/Inicio';
 import Nosotros from './paginas/Nosotros/Nosotros';
 import Domicilios from './paginas/Domicilios/Domicilios';
-import Carrito from "../src/component/CarritoCompras/components/Carrito";
-import Login from "../src/component/Login/login";
+import Create from "./paginas/CrearUsuario/create";
+import { AppProvider } from './paginas/CrearUsuario/appContext';
+import { AppContext } from "../src/paginas/CrearUsuario/appContext";
+import Show from '../src/paginas/CrearUsuario/Show';
+import{ ProductosLista } from "../src/componentes/Productos/index";
+import { DataProvide }  from "../src/context/dataProvider";
+import Admin from './paginas/admin/admin';
+import Ventas from './paginas/admin/ventas';
+import VistaAdmin from "../src/paginas/admin/vistaAdmin";
+import Especiales from './paginas/Especiales/Especiales';
+import Header from "./componentes/Header/index";
+import Carrito from "./componentes/Carrito/Carrito"
+import Login from "./component/Login/login";
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
+  <DataProvide>
   <BrowserRouter>
-    <Login/>
+  <AppContext.Provider>
+    <App/>
+  </AppContext.Provider>
   </BrowserRouter>
+  </DataProvide>
 
 );
 

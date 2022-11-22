@@ -1,0 +1,103 @@
+
+.imagen{
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(rgba(227, 230, 238, 0.055),rgba(227, 230, 238, 0.283)),
+  url(/src/Imagenes/fondo.jpg);
+  height: 650px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}
+
+.nombre{
+  margin: 0;
+  padding: 0;
+  color: black;
+  font-family: 'Lobster', cursive;
+  font-size: 6rem;
+  padding-top: 2rem;
+}
+
+.logo{
+  height: 250px;
+  width: 320px;
+  float: right;
+  margin-right: 100px;
+}
+
+.contenedor{
+  padding: 2rem;
+  width: 100%;
+  max-width: 1000px;
+  height: 150px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+  align-items: center;
+
+
+}
+
+.card{
+  width: 90%;
+  max-width: 1000px;
+  height: 150px;
+  background-color: rgba(234, 97, 16, 0.8);
+  text-align: center;
+}
+
+.card1{
+  margin-left: 8px;
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  height: 22rem;
+  width: 90%;
+
+  display: grid;
+  text-align: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+  align-items: center;
+}
+
+
+.contenedor .card:hover{
+  transform: translateY(-15px);
+} 
+
+.contenedor .card img{
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: auto;
+  align-items: center;
+}
+
+.contenedor1{
+  display:grid;
+  grid-template-columns: 25% 25% 25% 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-size: 1.5rem;
+}
+  
+.opciones{
+  display: flex;
+  font-size: 2rem;
+  gap: 100px;
+  justify-content: center;
+  flex-direction: row;
+  grid-template-columns: 20%;}
+
+
